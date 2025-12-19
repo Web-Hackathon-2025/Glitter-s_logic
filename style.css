@@ -1,0 +1,68 @@
+/* css/style.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Hero Section (Dark theme like the example) */
+.hero-section {
+    background-color: #2a0a4a; /* Dark purple/blue like HyperSonicX */
+    padding: 150px 0 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0,0,0,0.5), transparent);
+    z-index: 1;
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-section h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    margin-bottom: 30px;
+}
+
+/* Service Cards (Attractive with hover effects) */
+.service-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+.service-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 100px 0 50px;
+    }
+    .hero-section img {
+        margin-top: 20px;
+    }
+}
