@@ -56,12 +56,7 @@ Karigar/
 └── style/                   # CSS files
 ```
 
- How to Run
-1. Download or clone the repository.
-2. Install and start [XAMPP](https://www.apachefriends.org/index.html).
-3. Place the project in the `htdocs` folder (e.g., `C:\xampp\htdocs\Karigar`).
-4. Start Apache and MySQL from XAMPP.
-5. Open browser and visit: `http://localhost/Karigar/index.html`.
+
 
 ## Note
 - Make sure database connection credentials (if any) are updated properly in your PHP files.
@@ -69,6 +64,6 @@ Karigar/
 
 ##  Authors
 Developed by :
-Fatima Saeed ,Sohaib Kamal ,  Abdul Waseh.
+Anam Khan,Zara Naeem ,Hafsa Kokab
 
 
