@@ -1,99 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Karigar</title>
-  <link rel="stylesheet" href="style/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-
+  <title>About - Karigar</title>
+  <link rel="stylesheet" href="style/style.css" />
 </head>
-<body class="with-sidebar">
-  <section id="hero" class="hero">
-    <header>
-      <h1>Karigar</h1>
-      <nav>
-        <a class="active" href="index.html">Home</a>
-        <a href="material.html">Materials</a>
-        <a href="services.html">Services</a>
-        <a href="about.html">About</a>
-        <a href="#" id="openModalBtn">Login</a>
-      </nav>
-    </header>
-    <div class="overlay"></div>
+<body class="without-sidebar">
+
+  <header>
+    <h1>Karigar</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="material.html">Materials</a>
+      <a href="services.html">Services</a>
+      <a class="active" href="about.html">About</a>
+      <a href="#" id="openModalBtn">Login</a>
+    </nav>
+  </header>
+
+  <section class="about-hero">
     <div class="hero-content">
-      <h2>Real People. Real Skills. Real Solutions.</h2>
-      <p>Skip the middleman. Karigar links you with real freelancers offering home services
-         at better prices - and lets you find materials without wasting hours at the market. Home fixes made smarter.</p>
-
-      <div class="cta-buttons">
-        <a href="services.html" class="cta-btn book-service">Book a Service</a>
-        <a href="material.html" class="cta-btn buy-material">Buy Material</a>
-      </div>
-    </div>
-    <div class="hero-image"></div>
-  </section>
-
-  <section class="categories" id="services">
-    <h2>Service Categories</h2>
-    <div class="box">
-      <div class="item">Plumbing</div>
-      <div class="item">Electricians</div>
-      <div class="item">Cleaning</div>
-      <div class="item">Carpentry</div>
-      <div class="item">More</div>
+      <h2>About Karigar</h2>
+      <p>Karigar connects skilled freelancers to households in need of reliable, affordable home services 
+        and materials - no middlemen, no extra costs. Built for Pakistan, made for your convenience.</p>
     </div>
   </section>
 
-  <section class="material-categories" id="materials">
-    <h2>Material Categories</h2>
-    <div class="box">
-      <div class="item">
-        <img src="images/material1-icon.png" alt="Wood">
-        <p>Wood</p>
-      </div>
-      <div class="item">
-        <img src="images/material2-icon.png" alt="Metal">
-        <p>Metal</p>
-      </div>
-      <div class="item">
-        <img src="images/material3-icon.png" alt="Concrete">
-        <p>Concrete</p>
-      </div>
-      <div class="item">
-        <img src="images/material4-icon.png" alt="Glass">
-        <p>Glass</p>
-      </div>
-      <div class="item">
-        <img src="images/material5-icon.png" alt="Plastic">
-        <p>Plastic</p>
-      </div>
+  <section class="about-details">
+    <div class="info-block">
+      <h3>Contact Information</h3>
+      <ul>
+        <li>Phone: +123-456-7890</li>
+        <li>Email: youremail@mail.com</li>
+        <li>Location: Islamabad, Pakistan</li>
+      </ul>
     </div>
-  </section>
 
-  <section class="testimonials" id="testimonials">
-    <h2>What Our Users Say</h2>
-    <div class="testimonial-grid">
-      <div class="testimonial-card">
-        <img src="images/icon-5359553_640.webp" alt="Ali R." class="testimonial-img">
-        <blockquote>
-          "Super quick service, booked a plumber in minutes!"
-          <cite>- Ali R.</cite>
-        </blockquote>
-      </div>
-      <div class="testimonial-card">
-        <img src="images/icon-5359553_640.webp" alt="Sana K." class="testimonial-img">
-        <blockquote>
-          "I loved how easy it was to find a reliable electrician."
-          <cite>- Sana K.</cite>
-        </blockquote>
-      </div>
-      <div class="testimonial-card">
-        <img src="images/icon-5359553_640.webp" alt="Ahmed P." class="testimonial-img">
-        <blockquote>
-          "Karigar is my go-to for any home repair services now."
-          <cite>- Ahmed P.</cite>
-        </blockquote>
-      </div>
+    <div class="info-block">
+      <h3>Terms & Conditions</h3>
+      <p>By using Karigar, you agree to connect directly with freelancers and suppliers at your own discretion. 
+        We ensure basic verification, but final hiring decisions remain yours. Always verify critical certifications 
+        before proceeding. Karigar holds no liability for on-site service outcomes.</p>
+    </div>
+
+    <div class="info-block">
+      <h3>Privacy Policy</h3>
+      <p>We value your privacy. Your data will only be used for improving services and communicating updates. 
+        We do not sell or share your information with third parties without consent.</p>
     </div>
   </section>
 
@@ -103,10 +55,11 @@
       <p>Affordable and trusted home services across Pakistan.</p>
       <ul class="contact-info">
         <li>+123-456-7890</li>
-        <li>Karigar123@mail.com</li>
+        <li>youremail@mail.com</li>
         <li>Islamabad, Pakistan</li>
       </ul>
     </div>
+
     <div class="footer-section">
       <h4>Quick Links</h4>
       <ul>
@@ -116,6 +69,7 @@
         <li>Contact</li>
       </ul>
     </div>
+
     <div class="footer-section">
       <h4>Policies</h4>
       <ul>
@@ -124,6 +78,7 @@
         <li>Support</li>
       </ul>
     </div>
+
     <div class="footer-section">
       <h4>Subscribe</h4>
       <form action="#" method="POST" class="newsletter-form">
@@ -269,18 +224,9 @@
   
     </div>
   </div>
-
-  <aside class="sidebar">
-    <nav>
-      <ul>
-        <li><a href="#hero" class="sidebar-link"><i class="fas fa-home"></i><span>Home</span></a></li>
-        <li><a href="#services" class="sidebar-link"><i class="fas fa-tools"></i><span>Services</span></a></li>
-        <li><a href="#materials" class="sidebar-link"><i class="fas fa-box-open"></i><span>Materials</span></a></li>
-        <li><a href="#testimonials" class="sidebar-link"><i class="fas fa-quote-left"></i><span>Testimonials</span></a></li>
-      </ul>
-    </nav>
-  </aside>
-
+  
+    </div>
+  </div>
   <script src="js/script.js"></script>
 </body>
 </html>

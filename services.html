@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Karigar - Freelancer Listings</title>
+  <link rel="stylesheet" href="style/freelancer-style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header>
+    <h1>Karigar</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="material.html">Materials</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="dashboards/profile.html">Profile</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <h2>Browse Verified Home Service Providers</h2>
+    <p>Find trusted professionals recommended by Karigar</p>
+  </section>
+
+  <div class="material-layout freelancer-layout">
+    <div class="sidebar">
+      <input class="search-bar" type="text" placeholder="Search freelancers or services..." />
+      
+      <select class="category-dropdown">
+        <option value="">All Categories</option>
+        <option value="Electrician">Electrician</option>
+        <option value="Plumber">Plumber</option>
+        <option value="AC Technician">AC Technician</option>
+        <option value="Day Labour">Day Labour</option>
+        <option value="Carpenter">Carpenter</option>
+        <option value="Mason">Mason</option>
+        <option value="Gardener">Gardener</option>
+        <option value="Cleaning Services">Cleaning Services</option>
+      </select>
+
+      <div class="rating-filter">
+        <h4>Rating</h4>
+        <div class="rating-options">
+          <label class="rating-checkbox">
+            <input type="checkbox" name="rating" value="5" />
+            <span class="stars">★★★★★</span>
+            <span class="checkmark"></span>
+          </label>
+          <label class="rating-checkbox">
+            <input type="checkbox" name="rating" value="4" />
+            <span class="stars">★★★★☆</span>
+            <span class="checkmark"></span>
+          </label>
+          <label class="rating-checkbox">
+            <input type="checkbox" name="rating" value="3" />
+            <span class="stars">★★★☆☆</span>
+            <span class="checkmark"></span>
+          </label>
+          <label class="rating-checkbox">
+            <input type="checkbox" name="rating" value="2" />
+            <span class="stars">★★☆☆☆</span>
+            <span class="checkmark"></span>
+          </label>
+          <label class="rating-checkbox">
+            <input type="checkbox" name="rating" value="1" />
+            <span class="stars">★☆☆☆☆</span>
+            <span class="checkmark"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="availability">
+        <input type="checkbox" id="availability" class="availability-checkbox" />
+        <label for="availability">Available</label>
+      </div>
+    </div>
+
+    <div class="material-cards freelancer-cards-container">
+    </div>
+  </div>
+
+  <div class="modal" id="freelancer1" aria-hidden="true" tabindex="-1"></div>
+  <div class="modal" id="freelancer2" aria-hidden="true" tabindex="-1"></div>
+  <div class="modal" id="freelancer3" aria-hidden="true" tabindex="-1"></div>
+
+  <footer class="footer">
+    <div class="footer-section">
+      <h3>Karigar</h3>
+      <p>Affordable and trusted home services across Pakistan.</p>
+      <ul class="contact-info">
+        <li>+123-456-7890</li>
+        <li>Karigar123@mail.com</li>
+        <li>Islamabad, Pakistan</li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Appointment</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h4>Policies</h4>
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h4>Subscribe</h4>
+      <form action="#" method="POST" class="newsletter-form">
+        <input type="email" name="email" placeholder="Enter your email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </footer>
+
+  <script src="js/script2.js"></script>
+</body>
+</html>
